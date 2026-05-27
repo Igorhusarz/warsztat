@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: php-actions/phpunit@v4
       with:
-        version: 10.5.55
+        version: 11.5.55
         args: htdocs
