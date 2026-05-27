@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: php-actions/phpunit@v4
-      with:
-        version: 11.5.55
-        args: htdocs
+        with:
+           version: 11.5.55
+           args: htdocs
